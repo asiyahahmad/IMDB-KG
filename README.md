@@ -6,7 +6,7 @@ Prerequisites
 - Python 3.7+
 - pandas
 - networkx
-- matplotlib (for visualization)
+- matplotlib (for visualization of subgraphs)
 
 Install required packages with:
 pip install pandas networkx matplotlib
@@ -20,6 +20,6 @@ The core function create_IMDB_KG(movie_data):
 - Creates shared attribute nodes for year, duration, votes, and average vote.
 - Connects entities with labeled edges.
 
-Dataset
+# Dataset
 The dataset used is sourced from this [IMDB Movie Dataset (CSV)](https://raw.githubusercontent.com/utkarshaditya01/IR---The-Entertainment-Knowledge-Graph/main/Code/final_dataset_imdb.csv), which contains movie metadata including title, cast, crew, genre, ratings, and more.
 
